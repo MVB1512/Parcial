@@ -1,4 +1,3 @@
-
 def main():
   while True:
       print("Menú:")
@@ -14,7 +13,5 @@ def main():
         palabraAbyte(caracter)
         
         
-        
-      
 if __name__ == "__main__":
   main()
