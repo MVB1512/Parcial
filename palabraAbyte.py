@@ -1,3 +1,5 @@
+def palabraAbyte(caracter):
+
 palabra = input("Ingrese la palabra que desea cambiar a byte: ")
 
 for letra in palabra:
