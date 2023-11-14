@@ -1,4 +1,4 @@
-def caracterbyte():
+def caracterabyte():
     caracter = 'A'
     valor_ascii = ord(caracter)
     representacion_byte = valor_ascii.to_bytes(1, byteorder='big')
