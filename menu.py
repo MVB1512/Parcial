@@ -1,3 +1,6 @@
+from palabraAbyte import palabraAbyte
+from operacion import caracterbyte
+
 def main():
   while True:
       print("Menú:")
@@ -8,9 +11,13 @@ def main():
       opcion = input("Ingrese su opción (0-2): ")
 
       if opcion == '1':
-        obtener_representacion_byte(caracter)
+        caracterbyte()
       elif opcion == '2':
-        palabraAbyte(caracter)
+        palabraAbyte()
+      elif opcion == 0:
+        return False
+      else:
+        print("opcion no valida")
         
         
 if __name__ == "__main__":
